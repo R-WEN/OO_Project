@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.effect.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="50.0" style="-fx-background-color: #E5E5E5;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button id="statebtn" alignment="CENTER" layoutX="10.0" layoutY="45.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" style="-fx-background-image: url('/icon/circle.png'); -fx-background-size: 30px; -fx-background-repeat: no-repeat;" />
+      <Button id="transitionbtn" alignment="CENTER" layoutX="10.0" layoutY="115.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" style="-fx-background-image: url('/icon/diagonal-line.png'); -fx-background-size: 30px; -fx-background-repeat: no-repeat;" />
+      <Label layoutX="10.0" layoutY="79.0" text="State" />
+      <Label layoutX="10.0" layoutY="151.0" text="Trans" />
+   </children>
+</Pane>
